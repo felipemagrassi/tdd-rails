@@ -1,7 +1,7 @@
-=begin
-Write your code for the 'Hamming' exercise in this file. Make the tests in
-`hamming_test.rb` pass.
+# frozen_string_literal: true
 
-To get started with TDD, see the `README.md` file in your
-`ruby/hamming` directory.
-=end
+class Hamming
+  def self.compute(strand1, strand2)
+    strand1 == strand2 ? 0 : 1
+  end
+end
