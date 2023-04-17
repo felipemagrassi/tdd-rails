@@ -5,11 +5,9 @@ class Hamming
     @dna1 = Genetics::Strand.new(strand1)
     @dna2 = Genetics::Strand.new(strand2)
 
-    raise ArgumentError unless @dna1.length.eql?(@dna2.length)
-
-    @dna1.chars.zip(@dna2.chars).count do |left, right|
-      !left.eql?(right)
-    end
+    Calculator::HammingDistance.calculate(@dna1.to_s, @dna2.to_s)
+  rescue Calculator::HammingDistance::NotEqualLengthStrings
+    raise ArgumentError, 'Strands must be of equal length'
   end
 end
 
@@ -19,12 +17,22 @@ module Genetics
       @strand = strand
     end
 
-    def length
-      @strand.length
+    def to_s
+      @strand
     end
+  end
+end
 
-    def chars
-      @strand.chars
+module Calculator
+  module HammingDistance
+    class NotEqualLengthStrings < StandardError; end
+
+    def self.calculate(string1, string2)
+      raise NotEqualLengthStrings unless string1.length.eql?(string2.length)
+
+      string1.chars.zip(string2.chars).count do |left, right|
+        !left.eql?(right)
+      end
     end
   end
 end
