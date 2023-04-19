@@ -13,8 +13,8 @@ module BioRubyCorp
   end
 
   class Nucleotide
-    def self.from_dna(_strand)
-      DNAStrand.new
+    def self.from_dna(strand)
+      DNAStrand.new(strand)
     end
   end
 
