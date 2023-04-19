@@ -20,7 +20,15 @@ module BioRubyCorp
 
   class DNAStrand
     def initialize(dna_string)
+      raise ArgumentError unless dna_string.match?(/\A[ATCG]*\z/)
+
       @dna_string = dna_string
+    end
+
+    def histogram
+      %w[A T C G].each_with_object({}) do |nucleotide, histogram|
+        histogram[nucleotide] = count(nucleotide)
+      end
     end
 
     def count(nucleotide)
