@@ -3,8 +3,8 @@
 module BioRubyCorp
   class Hamming
     def self.compute(strand1, strand2)
-      @dna1 = Genetics::Strand.new(strand1)
-      @dna2 = Genetics::Strand.new(strand2)
+      @dna1 = Genetics::DNAStrand.new(strand1)
+      @dna2 = Genetics::DNAStrand.new(strand2)
 
       Calculator::HammingDistance.calculate(@dna1.to_s, @dna2.to_s)
     rescue Calculator::HammingDistance::NotEqualLengthStrings
@@ -37,8 +37,10 @@ module BioRubyCorp
   end
 
   module Genetics
-    class Strand
+    class DNAStrand
       def initialize(strand)
+        raise ArgumentError unless strand.match?(/\A[ATCG]*\z/)
+
         @strand = strand
       end
 

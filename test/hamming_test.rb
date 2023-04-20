@@ -45,4 +45,16 @@ class HammingTest < Minitest::Test
       Hamming.compute('G', '')
     end
   end
+
+  def test_disallow_first_strand_with_invalid_nucleotides
+    assert_raises(ArgumentError) do
+      Hamming.compute('X', 'G')
+    end
+  end
+
+  def test_disallow_second_strand_with_invalid_nucleotides
+    assert_raises(ArgumentError) do
+      Hamming.compute('G', 'X')
+    end
+  end
 end
