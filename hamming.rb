@@ -9,35 +9,40 @@ module BioRubyCorp
       Calculator::HammingDistance.calculate(@dna1.to_s, @dna2.to_s)
     rescue Calculator::HammingDistance::NotEqualLengthStrings
       raise ArgumentError, 'Strands must be of equal length'
+    rescue Genetics::DNAStrand::InvalidDNAString
+      raise ArgumentError, 'Strands must be composed of A, T, C, or G'
     end
   end
 
   class Nucleotide
     def self.from_dna(strand)
       DNAStrand.new(strand)
+    rescue DNAStrand::InvalidDNAStrand
+      raise ArgumentError, 'Strand must be composed of A, T, C, or G'
     end
   end
 
   class DNAStrand
+    class InvalidDNAStrand < StandardError; end
     def initialize(dna_string)
-      raise ArgumentError unless dna_string.match?(/\A[ATCG]*\z/)
-
-      @dna_string = dna_string
+      @dna_strand = Genetics::DNAStrand.new(dna_string)
+    rescue Genetics::DNAStrand::InvalidDNAString
+      raise InvalidDNAStrand
     end
 
     def histogram
-      %w[A T C G].each_with_object({}) do |nucleotide, histogram|
-        histogram[nucleotide] = count(nucleotide)
-      end
+      @dna_strand.histogram
     end
 
     def count(nucleotide)
-      @dna_string.chars.count { |char| char.eql?(nucleotide) }
+      @dna_strand.count(nucleotide)
     end
   end
 
   module Genetics
     class DNAStrand
+      class InvalidDNAString < StandardError; end
+
       def initialize(strand)
         raise ArgumentError unless strand.match?(/\A[ATCG]*\z/)
 
@@ -46,6 +51,16 @@ module BioRubyCorp
 
       def to_s
         @strand
+      end
+
+      def count(nucleotide)
+        @strand.chars.count { |char| char.eql?(nucleotide) }
+      end
+
+      def histogram
+        %w[A T C G].each_with_object({}) do |nucleotide, histogram|
+          histogram[nucleotide] = count(nucleotide)
+        end
       end
     end
   end
