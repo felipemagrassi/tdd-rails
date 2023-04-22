@@ -88,3 +88,41 @@ Processing by HammingDistanceCalculationController#new as HTML
 Completed 200 OK in 3ms (Views: 3.0ms | Allocations: 3031)
 
 
+Started GET "/" for ::1 at 2023-04-22 12:31:53 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 464)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 4039)
+Completed 200 OK in 8ms (Views: 7.0ms | Allocations: 5933)
+
+
+Started GET "/hamming_distance_calculation/new" for ::1 at 2023-04-22 12:31:57 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/new.html.erb within layouts/application
+  Rendered hamming_distance_calculation/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 3802)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 4948)
+Completed 200 OK in 24ms (Views: 5.1ms | Allocations: 8368)
+
+
+Started POST "/hamming_distance_calculation/calculate" for ::1 at 2023-04-22 12:32:00 -0300
+Processing by HammingDistanceCalculationController#calculate as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "hamming_distance_calculation"=>{"dna_strand_1"=>"ACG", "dna_strand_2"=>"ACC"}, "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/calculate.html.erb within layouts/application
+  Rendered hamming_distance_calculation/calculate.html.erb within layouts/application (Duration: 0.2ms | Allocations: 127)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 1194)
+Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 1914)
+
+
+Started POST "/hamming_distance_calculation/calculate" for ::1 at 2023-04-22 12:32:11 -0300
+Processing by HammingDistanceCalculationController#calculate as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "hamming_distance_calculation"=>{"dna_strand_1"=>"ACGG", "dna_strand_2"=>"ACC"}, "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/calculate.html.erb within layouts/application
+  Rendered hamming_distance_calculation/calculate.html.erb within layouts/application (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 951)
+Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 1925)
+
+
