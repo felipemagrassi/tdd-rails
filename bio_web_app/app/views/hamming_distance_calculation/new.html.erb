@@ -1,4 +1,14 @@
-<% form_for @calculation, url: {action: :calculate } do |f| %>
+<%= form_for @calculation, url: { action: :calculate } do |f| %>
+  <p>
+    <%= f.label(:dna_strand_1, "First DNA strand") %>
+    <%= f.text_field(:dna_strand_1) %>
+  </p>
 
+  <p>
+    <%= f.label(:dna_strand_2, "Second DNA strand") %>
+    <%= f.text_field(:dna_strand_2) %>
+  </p>
+
+  <%= f.submit "Calculate" %>
 <% end %> 
 

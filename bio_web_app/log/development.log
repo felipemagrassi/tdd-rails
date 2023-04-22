@@ -1,0 +1,90 @@
+Started GET "/" for ::1 at 2023-04-22 11:23:29 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 464)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 7211)
+Completed 200 OK in 13ms (Views: 12.2ms | Allocations: 9105)
+
+
+Started GET "/hamming_distance_calculation/new" for ::1 at 2023-04-22 11:23:31 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/new.html.erb within layouts/application
+  Rendered hamming_distance_calculation/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 3751)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 4890)
+Completed 200 OK in 8ms (Views: 5.0ms | Allocations: 8310)
+
+
+Started GET "/hamming_distance_calculation/new" for ::1 at 2023-04-22 11:24:29 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/new.html.erb within layouts/application
+  Rendered hamming_distance_calculation/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1096)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2367)
+Completed 200 OK in 4ms (Views: 3.3ms | Allocations: 3114)
+
+
+Started GET "/hamming_distance_calculation/new" for ::1 at 2023-04-22 11:24:32 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/new.html.erb within layouts/application
+  Rendered hamming_distance_calculation/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 683)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1634)
+Completed 200 OK in 2ms (Views: 1.9ms | Allocations: 1870)
+
+
+Started GET "/hamming_distance_calculation/new" for ::1 at 2023-04-22 11:24:42 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/new.html.erb within layouts/application
+  Rendered hamming_distance_calculation/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1091)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2362)
+Completed 200 OK in 3ms (Views: 2.7ms | Allocations: 3067)
+
+
+Started GET "/hamming_distance_calculation/new" for ::1 at 2023-04-22 11:24:42 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/new.html.erb within layouts/application
+  Rendered hamming_distance_calculation/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 695)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1645)
+Completed 200 OK in 2ms (Views: 2.0ms | Allocations: 1878)
+
+
+Started GET "/hamming_distance_calculation/new" for ::1 at 2023-04-22 11:24:43 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/new.html.erb within layouts/application
+  Rendered hamming_distance_calculation/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 684)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1634)
+Completed 200 OK in 2ms (Views: 1.9ms | Allocations: 1853)
+
+
+Started GET "/hamming_distance_calculation/new" for ::1 at 2023-04-22 11:24:43 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/new.html.erb within layouts/application
+  Rendered hamming_distance_calculation/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 672)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1622)
+Completed 200 OK in 2ms (Views: 2.2ms | Allocations: 1841)
+
+
+Started GET "/hamming_distance_calculation/new" for ::1 at 2023-04-22 11:24:47 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/new.html.erb within layouts/application
+  Rendered hamming_distance_calculation/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1062)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2332)
+Completed 200 OK in 3ms (Views: 3.1ms | Allocations: 3033)
+
+
+Started GET "/hamming_distance_calculation/new" for ::1 at 2023-04-22 11:25:26 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/new.html.erb within layouts/application
+  Rendered hamming_distance_calculation/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1044)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2315)
+Completed 200 OK in 3ms (Views: 3.0ms | Allocations: 3031)
+
+
