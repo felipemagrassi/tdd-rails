@@ -9,3 +9,261 @@ Started GET "/" for 127.0.0.1 at 2023-04-21 19:08:04 -0300
 HammingDistanceTest: test_happy_path
 ------------------------------------
 Started GET "/" for 127.0.0.1 at 2023-04-21 19:08:37 -0300
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:13:57 -0300
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:14:37 -0300
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:20:45 -0300
+Processing by RootController#index as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 799)
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:21:50 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html within layouts/application
+  Rendered root/index.html within layouts/application (Duration: 0.6ms | Allocations: 324)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 6114)
+Completed 200 OK in 11ms (Views: 8.9ms | Allocations: 8654)
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:23:09 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html within layouts/application
+  Rendered root/index.html within layouts/application (Duration: 0.3ms | Allocations: 217)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 3119)
+Completed 200 OK in 5ms (Views: 3.9ms | Allocations: 4964)
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:23:45 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 373)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 3181)
+Completed 200 OK in 5ms (Views: 3.6ms | Allocations: 5026)
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:23:45 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 0.3ms | Allocations: 478)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 691)
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:24:32 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 4335)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 4403)
+Completed 500 Internal Server Error in 11ms (Allocations: 6193)
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:25:18 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 3821)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 3889)
+Completed 500 Internal Server Error in 11ms (Allocations: 5679)
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:25:42 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 462)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 3267)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 5112)
+Started GET "/hamming_distance_calculation/new" for 127.0.0.1 at 2023-04-21 19:25:42 -0300
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:28:11 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 462)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 3267)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 5111)
+Started GET "/hamming_distance_calculation/new" for 127.0.0.1 at 2023-04-21 19:28:11 -0300
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:28:23 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 462)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 3267)
+Completed 200 OK in 5ms (Views: 4.4ms | Allocations: 5111)
+Started GET "/hamming_distance_calculation/new" for 127.0.0.1 at 2023-04-21 19:28:23 -0300
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:28:41 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 462)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 3267)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 5111)
+Started GET "/hamming_distance_calculation/new" for 127.0.0.1 at 2023-04-21 19:28:41 -0300
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:29:00 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 462)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 3267)
+Completed 200 OK in 5ms (Views: 3.8ms | Allocations: 5111)
+Started GET "/hamming_distance_calculation/new" for 127.0.0.1 at 2023-04-21 19:29:00 -0300
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:30:37 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 462)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 3267)
+Completed 200 OK in 5ms (Views: 4.0ms | Allocations: 5111)
+Started GET "/hamming_distance_calculation/new" for 127.0.0.1 at 2023-04-21 19:30:37 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+Completed 500 Internal Server Error in 3ms (Allocations: 2271)
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:33:30 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 462)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 3267)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 5111)
+Started GET "/hamming_distance_calculation/new" for 127.0.0.1 at 2023-04-21 19:33:30 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/new.html.erb within layouts/application
+  Rendered hamming_distance_calculation/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 95)
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 683)
+Completed 200 OK in 1ms (Views: 0.7ms | Allocations: 1262)
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:39:36 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 462)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 3267)
+Completed 200 OK in 5ms (Views: 3.8ms | Allocations: 5113)
+Started GET "/hamming_distance_calculation/new" for 127.0.0.1 at 2023-04-21 19:39:36 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/new.html.erb within layouts/application
+  Rendered hamming_distance_calculation/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 586)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 638)
+Completed 500 Internal Server Error in 1ms (Allocations: 1200)
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 19:43:51 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 462)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 3267)
+Completed 200 OK in 4ms (Views: 3.8ms | Allocations: 5111)
+Started GET "/hamming_distance_calculation/new" for 127.0.0.1 at 2023-04-21 19:43:51 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/new.html.erb within layouts/application
+  Rendered hamming_distance_calculation/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 4222)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 4274)
+Completed 500 Internal Server Error in 22ms (Allocations: 12113)
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 20:00:36 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 462)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 3267)
+Completed 200 OK in 6ms (Views: 4.9ms | Allocations: 5112)
+Started GET "/hamming_distance_calculation/new" for 127.0.0.1 at 2023-04-21 20:00:36 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/new.html.erb within layouts/application
+  Rendered hamming_distance_calculation/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 705)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1270)
+Completed 200 OK in 7ms (Views: 2.5ms | Allocations: 4607)
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 23:28:42 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 462)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 3267)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 5111)
+Started GET "/hamming_distance_calculation/new" for 127.0.0.1 at 2023-04-21 23:28:42 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/new.html.erb within layouts/application
+  Rendered hamming_distance_calculation/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 705)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1270)
+Completed 200 OK in 6ms (Views: 1.3ms | Allocations: 4607)
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 23:37:19 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 462)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 3267)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 5112)
+Started GET "/hamming_distance_calculation/new" for 127.0.0.1 at 2023-04-21 23:37:19 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/new.html.erb within layouts/application
+  Rendered hamming_distance_calculation/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 705)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 1270)
+Completed 200 OK in 4ms (Views: 1.1ms | Allocations: 4607)
+------------------------------------
+HammingDistanceTest: test_happy_path
+------------------------------------
+Started GET "/" for 127.0.0.1 at 2023-04-21 23:37:32 -0300
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 462)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 3267)
+Completed 200 OK in 4ms (Views: 3.3ms | Allocations: 5112)
+Started GET "/hamming_distance_calculation/new" for 127.0.0.1 at 2023-04-21 23:37:32 -0300
+Processing by HammingDistanceCalculationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hamming_distance_calculation/new.html.erb within layouts/application
+  Rendered hamming_distance_calculation/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 705)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 1270)
+Completed 200 OK in 4ms (Views: 1.1ms | Allocations: 4607)

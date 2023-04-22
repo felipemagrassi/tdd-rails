@@ -1,4 +1,5 @@
 require 'test_helper'
+
 class HammingDistanceTest < ActionDispatch::IntegrationTest
   test 'happy path' do
     visit '/'
